@@ -1,1 +1,5 @@
 # Add files here you want to be ignored
+package.json
+package-lock.json
+node_modules/*
+.DS_Store
