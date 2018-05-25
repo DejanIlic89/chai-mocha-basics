@@ -4,7 +4,8 @@
   "description": "A basic Chai Mocha setup.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "testmocha": "./node_modules/.bin/mocha -w"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/DejanIlic89/chai-mocha-basics#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.1.1"
+    "mocha": "^5.1.1",
+    "supertest": "^3.1.0"
   }
 }
